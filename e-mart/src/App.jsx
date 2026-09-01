@@ -1,14 +1,8 @@
-import MainProductCard from "./components/UIKIT/MainProductCard";
-import TitleCard from "./components/UIKIT/TitleCard";
-import TitleCetegoryPriceCard from "./components/UIKIT/TitleCetegoryPriceCard";
-import TopHeader from './components/header/TopHeader';
+import Home from './pages/Home/Home';
 function App() {
   return (
-    <div className="flex justify-center items-center w-full h-screen">
-      {/* <TitleCetegoryPriceCard /> */}
-      {/* <TitleCard /> */}
-      {/* <MainProductCard /> */}
-      <TopHeader />
+    <div className="h-screen max-w-[var(--max-width)] ">
+      <Home />
     </div>
   );
 }
