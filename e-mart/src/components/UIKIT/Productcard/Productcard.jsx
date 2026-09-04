@@ -1,5 +1,5 @@
-import CountdownTimer from "../CountdownTimer"
-import PrimaryButton from "../PrimaryButton"
+import CountdownTimer from "../CountdownTimer";
+import PrimaryButton from "../PrimaryButton";
 
 function Productcard() {
     return (
@@ -43,8 +43,8 @@ function Productcard() {
                       </div>
                     </div>
             </div>
-        </>
-    )
+    </>
+  );
 }
 
 export default Productcard;

@@ -1,17 +1,20 @@
 import { useState } from "react";
-import TitleCard from './../../UIKIT/TitleCard';
-import { newArrivals, trending, topRated, categories } from "../../../data/data";
+import TitleCard from "./../../UIKIT/TitleCard";
+import {
+  newArrivals,
+  trending,
+  topRated,
+  categories,
+} from "../../../data/data";
 import PrimaryButton from "../../UIKIT/PrimaryButton";
 import Productcard from "../../UIKIT/Productcard/Productcard";
 
 function Category() {
-
-    const [openIndex, setOpenIndex] = useState(null);
-    const toggleCategory = (index) => {
-            setOpenIndex(openIndex === index ? null : index);
-            console.log(index)
-    }
-
+  const [openIndex, setOpenIndex] = useState(null);
+  const toggleCategory = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+    console.log(index);
+  };
     return (
         <>
             <div className="flex gap-5 w-full mx-auto items-start">
@@ -79,8 +82,8 @@ function Category() {
                 </div>
               </div>
             </div>
-        </>
-    )
+          </>
+  );
 }
 
-export default Category
+export default Category;
