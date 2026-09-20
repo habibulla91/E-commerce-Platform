@@ -16,9 +16,9 @@
   .head_link {
     @apply w-7 h-7 bg-[var(--icon-bg)] rounded-[7px] transition duration-[var(--transition-timing)] hover:text-white text-[var(--sonic-silver)] hover:bg-[var(--salmon-pink)] hover:cursor-pointer flex justify-center items-center;
   }
-  .shadow{
+  /* .shadow{
     @apply box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
+  } */
   .nav-menu {
   }
   .nav-hover {
