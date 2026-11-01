@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Dashboard from "./dashboard/dashboard";
+import Dashboard from "./dashboard/Dashboard";
 import AllProduct from "./dashboard/AllProduct";
 import AddProduct from "./dashboard/AddProduct";
 import Categories from "./dashboard/Categories";
